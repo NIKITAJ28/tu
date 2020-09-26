@@ -1,0 +1,166 @@
+body {
+  font-family: 'Montserrat-light'sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.containerfluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* navbar section */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-family: "ubantu";
+  font-weight: bold;
+  font-size: 2.5rem;
+  hover:white;
+}
+
+.nav-link {
+  color: #fff;
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+
+/* title section */
+#title.containerfluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.downloadbutton {
+  margin: 5% 3% 5% 0;
+}
+
+/* features */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.features-box {
+  padding: 5%;
+}
+
+/* icon */
+.icon {
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonals */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonal-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 10%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.social {
+  margin: 20px 10px;
+}
+
+#footer.containerfluid {
+  padding: 5% 15%;
+}
+a:hover{
+  color:black;
+}
+a:hover.navbar-brand{
+  color:white;
+}
